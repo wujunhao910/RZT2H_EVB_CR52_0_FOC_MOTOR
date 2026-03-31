@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<raConfiguration version="9">
+  <generalSettings>
+    <option key="#Board#" value="board.rzt2hevb.ram"/>
+    <option key="CPU" value="RZT2H"/>
+    <option key="Core" value="CR52_0"/>
+    <option key="#TargetName#" value="R9A09G077M44GBG"/>
+    <option key="#TargetARCHITECTURE#" value="cortex-r52"/>
+    <option key="#DeviceCommand#" value="R9A09G077M44_CR52_0"/>
+    <option key="#RTOS#" value="_none"/>
+    <option key="#pinconfiguration#" value="R9A09G077M44GBG.pincfg"/>
+    <option key="#FSPVersion#" value="2.2.0"/>
+    <option key="#ConfigurationFragments#" value="Renesas##BSP##Board##rzt2h_evb##ram_execution"/>
+    <option key="#SELECTED_TOOLCHAIN#" value="gcc-arm-embedded"/>
+    <option key="#ToolchainVersion#" value="12.2.1.arm-12-24"/>
+  </generalSettings>
+  <raBspConfiguration/>
+  <raClockConfiguration>
+    <node id="board.clock.main.freq" option="board.clock.main.freq.25m"/>
+    <node id="board.clock.pll0" option="board.clock.pll0.standby"/>
+    <node id="board.clock.pll0.display" option="board.clock.pll0.display.value"/>
+    <node id="board.clock.clma0.enable" option="board.clock.clma0.enable.enabled"/>
+    <node id="board.clock.clma0.error" option="board.clock.clma0.error.not_mask"/>
+    <node id="board.clock.pll0ssc.enable" option="board.clock.pll0ssc.enable.disabled"/>
+    <node id="board.clock.pll0ssc.mfr" option="board.clock.pll0ssc.mfr.111_7k"/>
+    <node id="board.clock.pll0ssc.mrr" option="board.clock.pll0ssc.mrr.1"/>
+    <node id="board.clock.pll0ssc.mmr.display" option="board.clock.pll0ssc.mmr.display.value"/>
+    <node id="board.clock.ca55c0clk.freq" option="board.clock.ca55c0clk.freq.600m"/>
+    <node id="board.clock.ca55c1clk.freq" option="board.clock.ca55c1clk.freq.600m"/>
+    <node id="board.clock.ca55c2clk.freq" option="board.clock.ca55c2clk.freq.600m"/>
+    <node id="board.clock.ca55c3clk.freq" option="board.clock.ca55c3clk.freq.600m"/>
+    <node id="board.clock.pll1.display" option="board.clock.pll1.display.value"/>
+    <node id="board.clock.clma1.enable" option="board.clock.clma1.enable.enabled"/>
+    <node id="board.clock.clma1.error" option="board.clock.clma1.error.not_mask"/>
+    <node id="board.clock.ca55sclk.freq" option="board.clock.ca55sclk.freq.500m"/>
+    <node id="board.clock.cpu0clk.freq" option="board.clock.cpu0clk.freq.1000m"/>
+    <node id="board.clock.cpu1clk.freq" option="board.clock.cpu1clk.freq.1000m"/>
+    <node id="board.clock.pclkgptl.display" option="board.clock.pclkgptl.display.value"/>
+    <node id="board.clock.pclkh.display" option="board.clock.pclkh.display.value"/>
+    <node id="board.clock.ckio.div" option="board.clock.ckio.div.4"/>
+    <node id="board.clock.ckio.display" option="board.clock.ckio.display.value"/>
+    <node id="board.clock.pclkm.display" option="board.clock.pclkm.display.value"/>
+    <node id="board.clock.pclkl.display" option="board.clock.pclkl.display.value"/>
+    <node id="board.clock.pclkadc.display" option="board.clock.pclkadc.display.value"/>
+    <node id="board.clock.etclka.display" option="board.clock.etclka.display.value"/>
+    <node id="board.clock.etclkb.display" option="board.clock.etclkb.display.value"/>
+    <node id="board.clock.etclkc.display" option="board.clock.etclkc.display.value"/>
+    <node id="board.clock.etclkd.display" option="board.clock.etclkd.display.value"/>
+    <node id="board.clock.rmii_refclk.display" option="board.clock.rmii_refclk.display.value"/>
+    <node id="board.clock.etclke.display" option="board.clock.etclke.display.value"/>
+    <node id="board.clock.ethernet.source" option="board.clock.ethernet.source.pll1"/>
+    <node id="board.clock.eth_refclk.display" option="board.clock.eth_refclk.display.value"/>
+    <node id="board.clock.pll4.display" option="board.clock.pll4.display.value"/>
+    <node id="board.clock.clma4.enable" option="board.clock.clma4.enable.enabled"/>
+    <node id="board.clock.clma4.error" option="board.clock.clma4.error.not_mask"/>
+    <node id="board.clock.pclkah.display" option="board.clock.pclkah.display.value"/>
+    <node id="board.clock.pclkam.display" option="board.clock.pclkam.display.value"/>
+    <node id="board.clock.pclkal.display" option="board.clock.pclkal.display.value"/>
+    <node id="board.clock.pclkshostif.display" option="board.clock.pclkshostif.display.value"/>
+    <node id="board.clock.pclkcan.freq" option="board.clock.pclkcan.freq.30"/>
+    <node id="board.clock.pclkcan.freq.display" option="board.clock.pclkcan.freq.display.value"/>
+    <node id="board.clock.pclkendat.display" option="board.clock.pclkendat.display.value"/>
+    <node id="board.clock.pclkbiss.display" option="board.clock.pclkbiss.display.value"/>
+    <node id="board.clock.pclkafmt.display" option="board.clock.pclkafmt.display.value"/>
+    <node id="board.clock.pclkhdsl.display" option="board.clock.pclkhdsl.display.value"/>
+    <node id="board.clock.pclkenco.display" option="board.clock.pclkenco.sel.30"/>
+    <node id="board.clock.xspi.clk0.freq" option="board.clock.xspi.clk0.freq.12m"/>
+    <node id="board.clock.xspi.clk1.freq" option="board.clock.xspi.clk1.freq.12m"/>
+    <node id="board.clock.usbclk.display" option="board.clock.usbclk.display.value"/>
+    <node id="board.clock.dsmif0asyncclk.sel" option="board.clock.dsmif0asyncclk.freq"/>
+    <node id="board.clock.sci0asyncclk.sel" option="board.clock.sci0asyncclk.sel.25"/>
+    <node id="board.clock.sci1asyncclk.sel" option="board.clock.sci1asyncclk.sel.25"/>
+    <node id="board.clock.sci2asyncclk.sel" option="board.clock.sci2asyncclk.sel.25"/>
+    <node id="board.clock.sci3asyncclk.sel" option="board.clock.sci3asyncclk.sel.25"/>
+    <node id="board.clock.sci4asyncclk.sel" option="board.clock.sci4asyncclk.sel.25"/>
+    <node id="board.clock.sci5asyncclk.sel" option="board.clock.sci5asyncclk.sel.25"/>
+    <node id="board.clock.spi0asyncclk.sel" option="board.clock.spi0asyncclk.sel.25"/>
+    <node id="board.clock.spi1asyncclk.sel" option="board.clock.spi1asyncclk.sel.25"/>
+    <node id="board.clock.spi2asyncclk.sel" option="board.clock.spi2asyncclk.sel.25"/>
+    <node id="board.clock.spi3asyncclk.sel" option="board.clock.spi3asyncclk.sel.25"/>
+    <node id="board.clock.scie0asyncclk.sel" option="board.clock.scie0asyncclk.sel.24"/>
+    <node id="board.clock.scie1asyncclk.sel" option="board.clock.scie1asyncclk.sel.24"/>
+    <node id="board.clock.scie2asyncclk.sel" option="board.clock.scie2asyncclk.sel.24"/>
+    <node id="board.clock.scie3asyncclk.sel" option="board.clock.scie3asyncclk.sel.24"/>
+    <node id="board.clock.scie4asyncclk.sel" option="board.clock.scie4asyncclk.sel.24"/>
+    <node id="board.clock.scie5asyncclk.sel" option="board.clock.scie5asyncclk.sel.24"/>
+    <node id="board.clock.scie6asyncclk.sel" option="board.clock.scie6asyncclk.sel.24"/>
+    <node id="board.clock.scie7asyncclk.sel" option="board.clock.scie7asyncclk.sel.24"/>
+    <node id="board.clock.scie8asyncclk.sel" option="board.clock.scie8asyncclk.sel.24"/>
+    <node id="board.clock.scie9asyncclk.sel" option="board.clock.scie9asyncclk.sel.25"/>
+    <node id="board.clock.scie10asyncclk.sel" option="board.clock.scie10asyncclk.sel.25"/>
+    <node id="board.clock.scie11asyncclk.sel" option="board.clock.scie11asyncclk.sel.25"/>
+    <node id="board.clock.pll3.source" option="board.clock.pll3.source.div50"/>
+    <node id="board.clock.p_divider" mul="2" option="_edit"/>
+    <node id="board.clock.ffref" option="ffref.input"/>
+    <node id="board.clock.ffvco" option="ffvco.input"/>
+    <node id="board.clock.m_divider" mul="100" option="_edit"/>
+    <node id="board.clock.k" mul="0" option="_edit"/>
+    <node id="board.clock.ffout" option="ffout.input"/>
+    <node id="board.clock.s_divider" mul="3" option="_edit"/>
+    <node id="board.clock.pll3" option="board.clock.pll3.standby"/>
+    <node id="board.clock.pll3.display" option="board.clock.pll3.display.value"/>
+    <node id="board.clock.clma3.enable" option="board.clock.clma3.enable.enabled"/>
+    <node id="board.clock.clma3.error" option="board.clock.clma3.error.not_mask"/>
+    <node id="board.clock.lcdc_clk.sel" option="board.clock.lcdc_clk.sel.4"/>
+    <node id="board.clock.lcdc_clk.display" option="board.clock.lcdc_clk.display.value"/>
+    <node id="board.clock.pll2" option="board.clock.pll2.standby"/>
+    <node id="board.clock.pll2.display" option="board.clock.pll2.display.value"/>
+    <node id="board.clock.clma2.enable" option="board.clock.clma2.enable.enabled"/>
+    <node id="board.clock.clma2.error" option="board.clock.clma2.error.not_mask"/>
+    <node id="board.clock.pll2ssc.enable" option="board.clock.pll2ssc.enable.disabled"/>
+    <node id="board.clock.pll2ssc.mfr" option="board.clock.pll2ssc.mfr.111_7k"/>
+    <node id="board.clock.pll2ssc.mrr" option="board.clock.pll2ssc.mrr.1"/>
+    <node id="board.clock.pll2ssc.mmr.display" option="board.clock.pll2ssc.mmr.display.value"/>
+    <node id="board.clock.dficlk.display" option="board.clock.dficlk.display.value"/>
+    <node id="board.clock.sdhiclk.display" option="board.clock.sdhiclk.display.value"/>
+    <node id="board.clock.clma6.enable" option="board.clock.clma6.enable.enabled"/>
+    <node id="board.clock.clma6.error" option="board.clock.clma6.error.not_mask"/>
+    <node id="board.clock.clma6.detect" option="board.clock.clma6.detect.loco"/>
+    <node id="board.clock.loco.enable" option="board.clock.loco.enable.enabled"/>
+    <node id="board.clock.loco.freq" option="board.clock.loco.freq.1m"/>
+    <node id="board.clock.clma5.enable" option="board.clock.clma5.enable.enabled"/>
+    <node id="board.clock.clma0.cmpl" mul="1" option="_edit"/>
+    <node id="board.clock.clma1.cmpl" mul="1" option="_edit"/>
+    <node id="board.clock.clma2.cmpl" mul="1" option="_edit"/>
+    <node id="board.clock.clma3.cmpl" mul="1" option="_edit"/>
+    <node id="board.clock.clma4.cmpl" mul="1" option="_edit"/>
+    <node id="board.clock.clma5.cmpl" mul="1" option="_edit"/>
+    <node id="board.clock.clma6.cmpl" mul="1" option="_edit"/>
+    <node id="board.clock.clma0.cmph" mul="1023" option="_edit"/>
+    <node id="board.clock.clma1.cmph" mul="1023" option="_edit"/>
+    <node id="board.clock.clma2.cmph" mul="1023" option="_edit"/>
+    <node id="board.clock.clma3.cmph" mul="1023" option="_edit"/>
+    <node id="board.clock.clma4.cmph" mul="1023" option="_edit"/>
+    <node id="board.clock.clma5.cmph" mul="1023" option="_edit"/>
+    <node id="board.clock.clma6.cmph" mul="1023" option="_edit"/>
+  </raClockConfiguration>
+  <raPinConfiguration>
+    <pincfg active="true" name="" symbol="">
+      <configSetting altId="dsmif0.mclk00.p07_1" configurationId="dsmif0.mclk00" peripheral="DSMIF0"/>
+      <configSetting altId="dsmif0.mclk01.p07_3" configurationId="dsmif0.mclk01" peripheral="DSMIF0"/>
+      <configSetting altId="dsmif0.mclk02.p07_5" configurationId="dsmif0.mclk02" peripheral="DSMIF0"/>
+      <configSetting altId="dsmif0.mdat00.p07_2" configurationId="dsmif0.mdat00" peripheral="DSMIF0"/>
+      <configSetting altId="dsmif0.mdat01.p07_4" configurationId="dsmif0.mdat01" peripheral="DSMIF0"/>
+      <configSetting altId="dsmif0.mdat02.p07_6" configurationId="dsmif0.mdat02" peripheral="DSMIF0"/>
+      <configSetting altId="dsmif1.mclk10.p07_7" configurationId="dsmif1.mclk10" peripheral="DSMIF1"/>
+      <configSetting altId="dsmif1.mclk11.p08_6" configurationId="dsmif1.mclk11" peripheral="DSMIF1"/>
+      <configSetting altId="dsmif1.mclk12.p09_0" configurationId="dsmif1.mclk12" peripheral="DSMIF1"/>
+      <configSetting altId="dsmif1.mdat10.p08_0" configurationId="dsmif1.mdat10" peripheral="DSMIF1"/>
+      <configSetting altId="dsmif1.mdat11.p08_7" configurationId="dsmif1.mdat11" peripheral="DSMIF1"/>
+      <configSetting altId="dsmif1.mdat12.p09_1" configurationId="dsmif1.mdat12" peripheral="DSMIF1"/>
+      <configSetting altId="dsmif2.mclk20.p09_2" configurationId="dsmif2.mclk20" peripheral="DSMIF2"/>
+      <configSetting altId="dsmif2.mclk21.p10_6" configurationId="dsmif2.mclk21" peripheral="DSMIF2"/>
+      <configSetting altId="dsmif2.mclk22.p02_2" configurationId="dsmif2.mclk22" peripheral="DSMIF2"/>
+      <configSetting altId="dsmif2.mdat20.p09_3" configurationId="dsmif2.mdat20" peripheral="DSMIF2"/>
+      <configSetting altId="dsmif2.mdat21.p10_7" configurationId="dsmif2.mdat21" peripheral="DSMIF2"/>
+      <configSetting altId="dsmif2.mdat22.p11_1" configurationId="dsmif2.mdat22" peripheral="DSMIF2"/>
+      <configSetting altId="dsmif3.mclk30.p11_2" configurationId="dsmif3.mclk30" peripheral="DSMIF3"/>
+      <configSetting altId="dsmif3.mclk31.p11_4" configurationId="dsmif3.mclk31" peripheral="DSMIF3"/>
+      <configSetting altId="dsmif3.mclk32.p14_7" configurationId="dsmif3.mclk32" peripheral="DSMIF3"/>
+      <configSetting altId="dsmif3.mdat30.p11_3" configurationId="dsmif3.mdat30" peripheral="DSMIF3"/>
+      <configSetting altId="dsmif3.mdat31.p11_5" configurationId="dsmif3.mdat31" peripheral="DSMIF3"/>
+      <configSetting altId="dsmif3.mdat32.p15_0" configurationId="dsmif3.mdat32" peripheral="DSMIF3"/>
+      <configSetting altId="dsmif4.mclk40.p15_1" configurationId="dsmif4.mclk40" peripheral="DSMIF4"/>
+      <configSetting altId="dsmif4.mclk41.p15_3" configurationId="dsmif4.mclk41" peripheral="DSMIF4"/>
+      <configSetting altId="dsmif4.mclk42.p15_5" configurationId="dsmif4.mclk42" peripheral="DSMIF4"/>
+      <configSetting altId="dsmif4.mdat40.p15_2" configurationId="dsmif4.mdat40" peripheral="DSMIF4"/>
+      <configSetting altId="dsmif4.mdat41.p15_4" configurationId="dsmif4.mdat41" peripheral="DSMIF4"/>
+      <configSetting altId="dsmif4.mdat42.p15_6" configurationId="dsmif4.mdat42" peripheral="DSMIF4"/>
+      <configSetting altId="dsmif5.mclk50.p15_7" configurationId="dsmif5.mclk50" peripheral="DSMIF5"/>
+      <configSetting altId="dsmif5.mclk51.p16_1" configurationId="dsmif5.mclk51" peripheral="DSMIF5"/>
+      <configSetting altId="dsmif5.mclk52.p19_6" configurationId="dsmif5.mclk52" peripheral="DSMIF5"/>
+      <configSetting altId="dsmif5.mdat50.p16_0" configurationId="dsmif5.mdat50" peripheral="DSMIF5"/>
+      <configSetting altId="dsmif5.mdat51.p16_2" configurationId="dsmif5.mdat51" peripheral="DSMIF5"/>
+      <configSetting altId="dsmif5.mdat52.p19_7" configurationId="dsmif5.mdat52" peripheral="DSMIF5"/>
+      <configSetting altId="dsmif6.mclk60.p23_5" configurationId="dsmif6.mclk60" peripheral="DSMIF6"/>
+      <configSetting altId="dsmif6.mclk61.p23_7" configurationId="dsmif6.mclk61" peripheral="DSMIF6"/>
+      <configSetting altId="dsmif6.mclk62.p24_1" configurationId="dsmif6.mclk62" peripheral="DSMIF6"/>
+      <configSetting altId="dsmif6.mdat60.p23_6" configurationId="dsmif6.mdat60" peripheral="DSMIF6"/>
+      <configSetting altId="dsmif6.mdat61.p24_0" configurationId="dsmif6.mdat61" peripheral="DSMIF6"/>
+      <configSetting altId="dsmif6.mdat62.p24_2" configurationId="dsmif6.mdat62" peripheral="DSMIF6"/>
+      <configSetting altId="dsmif7.mclk70.p24_3" configurationId="dsmif7.mclk70" peripheral="DSMIF7"/>
+      <configSetting altId="dsmif7.mclk71.p09_6" configurationId="dsmif7.mclk71" peripheral="DSMIF7"/>
+      <configSetting altId="dsmif7.mclk72.p10_0" configurationId="dsmif7.mclk72" peripheral="DSMIF7"/>
+      <configSetting altId="dsmif7.mdat70.p24_4" configurationId="dsmif7.mdat70" peripheral="DSMIF7"/>
+      <configSetting altId="dsmif7.mdat71.p09_7" configurationId="dsmif7.mdat71" peripheral="DSMIF7"/>
+      <configSetting altId="dsmif7.mdat72.p10_1" configurationId="dsmif7.mdat72" peripheral="DSMIF7"/>
+      <configSetting altId="dsmif8.mclk80.p31_2" configurationId="dsmif8.mclk80" peripheral="DSMIF8"/>
+      <configSetting altId="dsmif8.mclk81.p31_4" configurationId="dsmif8.mclk81" peripheral="DSMIF8"/>
+      <configSetting altId="dsmif8.mclk82.p33_0" configurationId="dsmif8.mclk82" peripheral="DSMIF8"/>
+      <configSetting altId="dsmif8.mdat80.p31_3" configurationId="dsmif8.mdat80" peripheral="DSMIF8"/>
+      <configSetting altId="dsmif8.mdat81.p31_5" configurationId="dsmif8.mdat81" peripheral="DSMIF8"/>
+      <configSetting altId="dsmif8.mdat82.p33_1" configurationId="dsmif8.mdat82" peripheral="DSMIF8"/>
+      <configSetting altId="dsmif9.mclk90.p35_1" configurationId="dsmif9.mclk90" peripheral="DSMIF9"/>
+      <configSetting altId="dsmif9.mdat90.p35_2" configurationId="dsmif9.mdat90" peripheral="DSMIF9"/>
+      <configSetting altId="gpt00.gtioc00_0a.p00_0" configurationId="gpt00.gtioc00_0a" peripheral="GPT00"/>
+      <configSetting altId="gpt00.gtioc00_0b.p00_1" configurationId="gpt00.gtioc00_0b" peripheral="GPT00"/>
+      <configSetting altId="gpt00.gtioc00_1a.p00_2" configurationId="gpt00.gtioc00_1a" peripheral="GPT00"/>
+      <configSetting altId="gpt00.gtioc00_1b.p00_3" configurationId="gpt00.gtioc00_1b" peripheral="GPT00"/>
+      <configSetting altId="gpt00.gtioc00_2a.p00_4" configurationId="gpt00.gtioc00_2a" peripheral="GPT00"/>
+      <configSetting altId="gpt00.gtioc00_2b.p00_5" configurationId="gpt00.gtioc00_2b" peripheral="GPT00"/>
+      <configSetting altId="gpt01.gtioc01_0a.p01_2" configurationId="gpt01.gtioc01_0a" peripheral="GPT01"/>
+      <configSetting altId="gpt01.gtioc01_0b.p01_3" configurationId="gpt01.gtioc01_0b" peripheral="GPT01"/>
+      <configSetting altId="gpt01.gtioc01_1a.p32_4" configurationId="gpt01.gtioc01_1a" peripheral="GPT01"/>
+      <configSetting altId="gpt01.gtioc01_1b.p32_5" configurationId="gpt01.gtioc01_1b" peripheral="GPT01"/>
+      <configSetting altId="gpt01.gtioc01_2a.p32_6" configurationId="gpt01.gtioc01_2a" peripheral="GPT01"/>
+      <configSetting altId="gpt01.gtioc01_2b.p32_7" configurationId="gpt01.gtioc01_2b" peripheral="GPT01"/>
+      <configSetting altId="gpt02.gtioc02_0a.p02_5" configurationId="gpt02.gtioc02_0a" peripheral="GPT02"/>
+      <configSetting altId="gpt02.gtioc02_0b.p02_6" configurationId="gpt02.gtioc02_0b" peripheral="GPT02"/>
+      <configSetting altId="gpt02.gtioc02_1a.p02_7" configurationId="gpt02.gtioc02_1a" peripheral="GPT02"/>
+      <configSetting altId="gpt02.gtioc02_1b.p03_0" configurationId="gpt02.gtioc02_1b" peripheral="GPT02"/>
+      <configSetting altId="gpt02.gtioc02_2a.p03_1" configurationId="gpt02.gtioc02_2a" peripheral="GPT02"/>
+      <configSetting altId="gpt02.gtioc02_2b.p03_2" configurationId="gpt02.gtioc02_2b" peripheral="GPT02"/>
+      <configSetting altId="gpt03.gtioc03_0a.p03_7" configurationId="gpt03.gtioc03_0a" peripheral="GPT03"/>
+      <configSetting altId="gpt03.gtioc03_0b.p04_0" configurationId="gpt03.gtioc03_0b" peripheral="GPT03"/>
+      <configSetting altId="gpt03.gtioc03_1a.p04_1" configurationId="gpt03.gtioc03_1a" peripheral="GPT03"/>
+      <configSetting altId="gpt03.gtioc03_1b.p04_2" configurationId="gpt03.gtioc03_1b" peripheral="GPT03"/>
+      <configSetting altId="gpt03.gtioc03_2a.p04_3" configurationId="gpt03.gtioc03_2a" peripheral="GPT03"/>
+      <configSetting altId="gpt03.gtioc03_2b.p04_4" configurationId="gpt03.gtioc03_2b" peripheral="GPT03"/>
+      <configSetting altId="gpt04.gtioc04_0a.p09_4" configurationId="gpt04.gtioc04_0a" peripheral="GPT04"/>
+      <configSetting altId="gpt04.gtioc04_0b.p09_5" configurationId="gpt04.gtioc04_0b" peripheral="GPT04"/>
+      <configSetting altId="gpt04.gtioc04_1a.p01_4" configurationId="gpt04.gtioc04_1a" peripheral="GPT04"/>
+      <configSetting altId="gpt04.gtioc04_1b.p01_5" configurationId="gpt04.gtioc04_1b" peripheral="GPT04"/>
+      <configSetting altId="gpt04.gtioc04_2a.p01_6" configurationId="gpt04.gtioc04_2a" peripheral="GPT04"/>
+      <configSetting altId="gpt04.gtioc04_2b.p01_7" configurationId="gpt04.gtioc04_2b" peripheral="GPT04"/>
+      <configSetting altId="gpt05.gtioc05_0a.p11_6" configurationId="gpt05.gtioc05_0a" peripheral="GPT05"/>
+      <configSetting altId="gpt05.gtioc05_0b.p11_7" configurationId="gpt05.gtioc05_0b" peripheral="GPT05"/>
+      <configSetting altId="gpt05.gtioc05_1a.p12_0" configurationId="gpt05.gtioc05_1a" peripheral="GPT05"/>
+      <configSetting altId="gpt05.gtioc05_1b.p12_1" configurationId="gpt05.gtioc05_1b" peripheral="GPT05"/>
+      <configSetting altId="gpt05.gtioc05_2a.p12_2" configurationId="gpt05.gtioc05_2a" peripheral="GPT05"/>
+      <configSetting altId="gpt05.gtioc05_2b.p12_3" configurationId="gpt05.gtioc05_2b" peripheral="GPT05"/>
+      <configSetting altId="gpt06.gtioc06_0a.p22_7" configurationId="gpt06.gtioc06_0a" peripheral="GPT06"/>
+      <configSetting altId="gpt06.gtioc06_0b.p23_0" configurationId="gpt06.gtioc06_0b" peripheral="GPT06"/>
+      <configSetting altId="gpt06.gtioc06_1a.p23_1" configurationId="gpt06.gtioc06_1a" peripheral="GPT06"/>
+      <configSetting altId="gpt06.gtioc06_1b.p23_2" configurationId="gpt06.gtioc06_1b" peripheral="GPT06"/>
+      <configSetting altId="gpt06.gtioc06_2a.p23_3" configurationId="gpt06.gtioc06_2a" peripheral="GPT06"/>
+      <configSetting altId="gpt06.gtioc06_2b.p23_4" configurationId="gpt06.gtioc06_2b" peripheral="GPT06"/>
+      <configSetting altId="gpt07.gtioc07_0a.p19_0" configurationId="gpt07.gtioc07_0a" peripheral="GPT07"/>
+      <configSetting altId="gpt07.gtioc07_0b.p19_1" configurationId="gpt07.gtioc07_0b" peripheral="GPT07"/>
+      <configSetting altId="gpt07.gtioc07_1a.p19_2" configurationId="gpt07.gtioc07_1a" peripheral="GPT07"/>
+      <configSetting altId="gpt07.gtioc07_1b.p19_3" configurationId="gpt07.gtioc07_1b" peripheral="GPT07"/>
+      <configSetting altId="gpt07.gtioc07_2a.p19_4" configurationId="gpt07.gtioc07_2a" peripheral="GPT07"/>
+      <configSetting altId="gpt07.gtioc07_2b.p19_5" configurationId="gpt07.gtioc07_2b" peripheral="GPT07"/>
+      <configSetting altId="gpt08.gtioc08_0a.p27_7" configurationId="gpt08.gtioc08_0a" peripheral="GPT08"/>
+      <configSetting altId="gpt08.gtioc08_0b.p28_0" configurationId="gpt08.gtioc08_0b" peripheral="GPT08"/>
+      <configSetting altId="gpt08.gtioc08_1a.p28_1" configurationId="gpt08.gtioc08_1a" peripheral="GPT08"/>
+      <configSetting altId="gpt08.gtioc08_1b.p28_2" configurationId="gpt08.gtioc08_1b" peripheral="GPT08"/>
+      <configSetting altId="gpt08.gtioc08_2a.p28_3" configurationId="gpt08.gtioc08_2a" peripheral="GPT08"/>
+      <configSetting altId="gpt08.gtioc08_2b.p28_4" configurationId="gpt08.gtioc08_2b" peripheral="GPT08"/>
+      <configSetting altId="gpt_poeg.gtetrgd.p17_6" configurationId="gpt_poeg.gtetrgd" isUsedByDriver="true" peripheral="GPT_POEG"/>
+      <configSetting altId="jtag_fslash_swd.tck_swclk.p08_3" configurationId="jtag_fslash_swd.tck_swclk" isUsedByDriver="true" peripheral="JTAG/SWD"/>
+      <configSetting altId="jtag_fslash_swd.tdi.p08_2" configurationId="jtag_fslash_swd.tdi" isUsedByDriver="true" peripheral="JTAG/SWD"/>
+      <configSetting altId="jtag_fslash_swd.tdo.p08_4" configurationId="jtag_fslash_swd.tdo" isUsedByDriver="true" peripheral="JTAG/SWD"/>
+      <configSetting altId="jtag_fslash_swd.tms_swdio.p08_1" configurationId="jtag_fslash_swd.tms_swdio" isUsedByDriver="true" peripheral="JTAG/SWD"/>
+      <configSetting altId="p00_6.input" configurationId="p00_6"/>
+      <configSetting altId="p06_7.output.low" configurationId="p06_7"/>
+      <configSetting altId="p08_5.output.high" configurationId="p08_5"/>
+      <configSetting altId="p18_0.output.low" configurationId="p18_0"/>
+      <configSetting altId="p18_1.output.low" configurationId="p18_1"/>
+      <configSetting altId="p22_5.output.high" configurationId="p22_5"/>
+      <configSetting altId="p32_2.output.high" configurationId="p32_2"/>
+      <configSetting altId="p35_3.input" configurationId="p35_3"/>
+      <configSetting altId="p35_6.input" configurationId="p35_6"/>
+      <configSetting altId="sci0.rxd_miso0.p27_4" configurationId="sci0.rxd_miso0" isUsedByDriver="true" peripheral="SCI0"/>
+      <configSetting altId="sci0.txd_mosi0.p27_5" configurationId="sci0.txd_mosi0" isUsedByDriver="true" peripheral="SCI0"/>
+      <configSetting altId="sci5.rxd_miso5.p16_3" configurationId="sci5.rxd_miso5" isUsedByDriver="true" peripheral="SCI5"/>
+      <configSetting altId="sci5.txd_mosi5.p16_4" configurationId="sci5.txd_mosi5" isUsedByDriver="true" peripheral="SCI5"/>
+      <configSetting altId="scie00.dee00.p14_3" configurationId="scie00.dee00" peripheral="SCIE00"/>
+      <configSetting altId="scie00.rxde00.p14_5" configurationId="scie00.rxde00" peripheral="SCIE00"/>
+      <configSetting altId="scie00.txde00.p14_4" configurationId="scie00.txde00" peripheral="SCIE00"/>
+      <configSetting altId="scie01.dee01.p31_7" configurationId="scie01.dee01" peripheral="SCIE01"/>
+      <configSetting altId="scie01.rxde01.p32_1" configurationId="scie01.rxde01" peripheral="SCIE01"/>
+      <configSetting altId="scie01.txde01.p32_0" configurationId="scie01.txde01" peripheral="SCIE01"/>
+      <configSetting altId="scie02.dee02.p03_4" configurationId="scie02.dee02" peripheral="SCIE02"/>
+      <configSetting altId="scie02.rxde02.p03_6" configurationId="scie02.rxde02" peripheral="SCIE02"/>
+      <configSetting altId="scie02.txde02.p03_5" configurationId="scie02.txde02" peripheral="SCIE02"/>
+      <configSetting altId="scie03.dee03.p04_6" configurationId="scie03.dee03" peripheral="SCIE03"/>
+      <configSetting altId="scie03.rxde03.p05_0" configurationId="scie03.rxde03" peripheral="SCIE03"/>
+      <configSetting altId="scie03.txde03.p04_7" configurationId="scie03.txde03" peripheral="SCIE03"/>
+      <configSetting altId="scie04.dee04.p00_7" configurationId="scie04.dee04" peripheral="SCIE04"/>
+      <configSetting altId="scie04.rxde04.p01_1" configurationId="scie04.rxde04" peripheral="SCIE04"/>
+      <configSetting altId="scie04.txde04.p01_0" configurationId="scie04.txde04" peripheral="SCIE04"/>
+      <configSetting altId="scie05.dee05.p12_5" configurationId="scie05.dee05" peripheral="SCIE05"/>
+      <configSetting altId="scie05.rxde05.p12_7" configurationId="scie05.rxde05" peripheral="SCIE05"/>
+      <configSetting altId="scie05.txde05.p12_6" configurationId="scie05.txde05" peripheral="SCIE05"/>
+      <configSetting altId="scie06.dee06.p33_7" configurationId="scie06.dee06" peripheral="SCIE06"/>
+      <configSetting altId="scie06.rxde06.p34_1" configurationId="scie06.rxde06" peripheral="SCIE06"/>
+      <configSetting altId="scie06.txde06.p34_0" configurationId="scie06.txde06" peripheral="SCIE06"/>
+      <configSetting altId="scie07.dee07.p34_3" configurationId="scie07.dee07" peripheral="SCIE07"/>
+      <configSetting altId="scie07.rxde07.p34_5" configurationId="scie07.rxde07" peripheral="SCIE07"/>
+      <configSetting altId="scie07.txde07.p34_4" configurationId="scie07.txde07" peripheral="SCIE07"/>
+      <configSetting altId="scie08.dee08.p28_6" configurationId="scie08.dee08" peripheral="SCIE08"/>
+      <configSetting altId="scie08.rxde08.p29_0" configurationId="scie08.rxde08" peripheral="SCIE08"/>
+      <configSetting altId="scie08.txde08.p28_7" configurationId="scie08.txde08" peripheral="SCIE08"/>
+      <configSetting altId="xspi0.xspi0_ckn.p05_2" configurationId="xspi0.xspi0_ckn" isUsedByDriver="true" peripheral="XSPI0"/>
+      <configSetting altId="xspi0.xspi0_ckp.p05_1" configurationId="xspi0.xspi0_ckp" isUsedByDriver="true" peripheral="XSPI0"/>
+      <configSetting altId="xspi0.xspi0_cs0_hash.p05_3" configurationId="xspi0.xspi0_cs0_hash" isUsedByDriver="true" peripheral="XSPI0"/>
+      <configSetting altId="xspi0.xspi0_ds.p05_5" configurationId="xspi0.xspi0_ds" isUsedByDriver="true" peripheral="XSPI0"/>
+      <configSetting altId="xspi0.xspi0_io0.p05_6" configurationId="xspi0.xspi0_io0" isUsedByDriver="true" peripheral="XSPI0"/>
+      <configSetting altId="xspi0.xspi0_io1.p05_7" configurationId="xspi0.xspi0_io1" isUsedByDriver="true" peripheral="XSPI0"/>
+      <configSetting altId="xspi0.xspi0_io2.p06_0" configurationId="xspi0.xspi0_io2" isUsedByDriver="true" peripheral="XSPI0"/>
+      <configSetting altId="xspi0.xspi0_io3.p06_1" configurationId="xspi0.xspi0_io3" isUsedByDriver="true" peripheral="XSPI0"/>
+      <configSetting altId="xspi0.xspi0_io4.p06_2" configurationId="xspi0.xspi0_io4" isUsedByDriver="true" peripheral="XSPI0"/>
+      <configSetting altId="xspi0.xspi0_io5.p06_3" configurationId="xspi0.xspi0_io5" isUsedByDriver="true" peripheral="XSPI0"/>
+      <configSetting altId="xspi0.xspi0_io6.p06_4" configurationId="xspi0.xspi0_io6" isUsedByDriver="true" peripheral="XSPI0"/>
+      <configSetting altId="xspi0.xspi0_io7.p06_5" configurationId="xspi0.xspi0_io7" isUsedByDriver="true" peripheral="XSPI0"/>
+      <configSetting altId="xspi0.xspi0_reset0_hash.p06_6" configurationId="xspi0.xspi0_reset0_hash" isUsedByDriver="true" peripheral="XSPI0"/>
+    </pincfg>
+  </raPinConfiguration>
+</raConfiguration>

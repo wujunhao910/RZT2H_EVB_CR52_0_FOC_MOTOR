@@ -1,0 +1,75 @@
+/*******************************************************************************
+* DISCLAIMER
+* This software is supplied by Renesas Electronics Corporation and is only
+* intended for use with Renesas products. No other uses are authorized. This
+* software is owned by Renesas Electronics Corporation and is protected under
+* all applicable laws, including copyright laws.
+* THIS SOFTWARE IS PROVIDED "AS IS" AND RENESAS MAKES NO WARRANTIES REGARDING
+* THIS SOFTWARE, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT
+* LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+* AND NON-INFRINGEMENT. ALL SUCH WARRANTIES ARE EXPRESSLY DISCLAIMED.
+* TO THE MAXIMUM EXTENT PERMITTED NOT PROHIBITED BY LAW, NEITHER RENESAS
+* ELECTRONICS CORPORATION NOR ANY OF ITS AFFILIATED COMPANIES SHALL BE LIABLE
+* FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES FOR
+* ANY REASON RELATED TO THIS SOFTWARE, EVEN IF RENESAS OR ITS AFFILIATES HAVE
+* BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+* Renesas reserves the right, without notice, to make changes to this software
+* and to discontinue the availability of this software. By using this software,
+* you agree to the additional terms and conditions found by accessing the
+* following link:
+* http://www.renesas.com/disclaimer
+*
+* Copyright (C) 2021 Renesas Electronics Corporation. All rights reserved.
+*******************************************************************************/
+/*******************************************************************************
+* System Name  : RZ/T2H Motor Solution Kit
+* File Name    : m_interpreter.h
+* Version      : 1.0
+* Device       : RZ/T2H
+* Tool-Chain   : IAR Embedded Workbench for ARM
+*                Renesas e2studio
+* OS           : Not use
+* Description  : Header file of Recorder.
+*******************************************************************************/
+#ifndef M_RECORDER_H
+#define M_RECORDER_H
+
+/********************************************************************************
+includes
+********************************************************************************/
+
+/********************************************************************************
+Macro definitions (Register bit)
+********************************************************************************/
+
+/********************************************************************************
+Macro definitions
+********************************************************************************/
+
+/********************************************************************************
+Typedef definitions
+********************************************************************************/
+
+typedef struct {
+   short size;
+   void * ptr1; 
+   void * ptr2;
+   void * ptr3;
+   void * ptr4;
+   void * ptr5;
+   void * ptr6;
+   void * ptr7;
+   void * ptr8;
+   void * ptr9;
+} t_decode;
+
+/********************************************************************************
+Exported global variables
+********************************************************************************/
+
+/********************************************************************************
+Exported global functions (to be accessed by other files)
+********************************************************************************/
+void *  DecodePtr (t_motor *pm, long code);
+
+#endif /* M_RECORDER_H */

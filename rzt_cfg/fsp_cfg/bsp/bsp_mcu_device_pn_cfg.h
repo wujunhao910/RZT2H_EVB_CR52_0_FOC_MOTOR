@@ -1,0 +1,14 @@
+/* generated configuration header file - do not edit */
+#ifndef BSP_MCU_DEVICE_PN_CFG_H_
+#define BSP_MCU_DEVICE_PN_CFG_H_
+#define BSP_MCU_R9A09G077M44GBG
+#define BSP_ATCM_SIZE_BYTES (524288)
+#define BSP_BTCM_SIZE_BYTES (65536)
+#define BSP_SYSTEM_RAM_SIZE_BYTES (2097152)
+#define BSP_PACKAGE_BGA
+#define BSP_PACKAGE_PINS (729)
+
+#define BSP_CFG_CORE_CR52 (0)
+#define BSP_VECTOR_TABLE_MAX_ENTRIES (544)
+#define BSP_CFG_SEMAPHORE_ENABLE (1)
+#endif /* BSP_MCU_DEVICE_PN_CFG_H_ */
