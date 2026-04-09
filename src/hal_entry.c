@@ -141,14 +141,28 @@ void hal_entry(void)
                }
            }
 
-           while(g_st_m[MOTOR_NUM - 1].charge_state != BS_CHARGE_END)
+           // 等待所有 5 个电机都完成 Bootstrap 充电
+           bool all_charged = false;
+           while (!all_charged)
            {
-               /* Wait */
+               all_charged = true;
+               if (g_st_m[2].charge_state != BS_CHARGE_END) all_charged = false;
+               if (g_st_m[3].charge_state != BS_CHARGE_END) all_charged = false;
+               if (g_st_m[6].charge_state != BS_CHARGE_END) all_charged = false;
+               if (g_st_m[7].charge_state != BS_CHARGE_END) all_charged = false;
+               if (g_st_m[8].charge_state != BS_CHARGE_END) all_charged = false;
            }
 
-           while(g_st_m[MOTOR_NUM - 1].aligning)
+           // 等待所有 5 个电机都完成相位对齐
+           bool all_aligned = false;
+           while (!all_aligned)
            {
-               /* Wait until the phasing process is completed */
+               all_aligned = true;
+               if (g_st_m[2].aligning) all_aligned = false;
+               if (g_st_m[3].aligning) all_aligned = false;
+               if (g_st_m[6].aligning) all_aligned = false;
+               if (g_st_m[7].aligning) all_aligned = false;
+               if (g_st_m[8].aligning) all_aligned = false;
            }
 
            R_BSP_SoftwareDelay(1000, BSP_DELAY_UNITS_MILLISECONDS);
