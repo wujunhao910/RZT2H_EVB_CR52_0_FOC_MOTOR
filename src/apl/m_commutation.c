@@ -149,7 +149,7 @@ void commutate_foc(t_motor *pm)
 
     /* Clark Transformation: Calculate alpha and beta angles from the measured current */
     alpha = (float)(*pm->p_iu);
-    beta = (float)(*pm->p_iu + *pm->p_iv + *pm->p_iv) * MTR_1_SQRT_3;    /* 1/SQUAREROOT(3) */
+    beta = (float)(*pm->p_iv - *pm->p_iu) * MTR_1_SQRT_3;    /* 1/SQUAREROOT(3): Corrected Clark Transformation (Iv - Iu)/sqrt(3) */
 
     /* Park Transformation: Calculate ID and IQ */
     pm->foc_id = (long)(alpha*pm->angle_cos + beta*pm->angle_sin);
